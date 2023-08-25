@@ -1,0 +1,10 @@
+#!/bin/bash
+
+interval=60 # 1 minutes in seconds
+
+while true; do
+    timestamp=$(date +"%Y%m%d%H%M%S")
+    screenshot_path="/home/kumar/Desktop/screenshot_$timestamp.png"
+    gnome-screenshot -f "$screenshot_path"
+    sleep $interval
+done
