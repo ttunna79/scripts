@@ -8,3 +8,5 @@ while true; do
     gnome-screenshot -f "$screenshot_path"
     sleep $interval
 done
+
+Hi this is test
