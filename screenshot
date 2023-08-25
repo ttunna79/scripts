@@ -9,4 +9,3 @@ while true; do
     sleep $interval
 done
 
-Hi this is test
